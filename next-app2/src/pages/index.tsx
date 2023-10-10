@@ -1,7 +1,7 @@
 export default function Home() {
   return (
   <div>
-    <h1>Lista</h1>
+    <h1> HOME </h1>
 
     <h2>
       Next app - Pages Folder
