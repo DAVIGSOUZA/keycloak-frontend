@@ -1,23 +1,23 @@
 import { useKeycloak } from "@/context/keycloak"
 
-export default function Home() {
+export default function Admin() {
   const {
     keycloak,
     isReady,
     loading,
   } = useKeycloak()
 
-  // console.log(keycloak?.idTokenParsed);
-  // console.log(keycloak?.authenticated);
-  console.log({keycloak});
+  console.log(keycloak?.idTokenParsed);
+  console.log(keycloak?.authenticated);
   
   
   return (
   <div>
-    <h1> HOME </h1>
+    <h1> ADMIN </h1>
+
 
     <h2>
-      Next app 2
+      Next app 3
     </h2>
 
     <div>
